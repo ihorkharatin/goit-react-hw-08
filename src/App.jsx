@@ -10,7 +10,7 @@ import NotFoundPage from "./pages/NotFoundPage/NotFoundPage";
 
 const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const RegistrationPage = lazy(() =>
-  import("./pages/RegistrationPage/RegistrationPage")
+  import("./pages/RegistrationPage2/RegistrationPage2")
 );
 const LoginPage = lazy(() => import("./pages/LoginPage/LoginPage"));
 const ContactsPage = lazy(() => import("./pages/ContactsPage/ContactsPage"));
