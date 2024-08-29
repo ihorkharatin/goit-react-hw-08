@@ -1,0 +1,49 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-family: Pacifico, sans-serif;
+  position: relative;
+  font-size: 18px;
+}
+
+.field {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+}
+
+.message {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 5px);
+  width: 100%;
+  color: red;
+  font-size: 12px;
+}
+
+.button {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.5),
+    0 8px 16px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
+}

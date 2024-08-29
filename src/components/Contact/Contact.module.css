@@ -1,0 +1,73 @@
+.item {
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 250px;
+}
+
+.mainPart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+}
+
+.bts {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.5),
+    0 8px 16px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.modalBts {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.modalMessage {
+  font-family: Roboto, sans-serif;
+  font-size: 24px;
+}
